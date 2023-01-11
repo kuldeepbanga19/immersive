@@ -1,0 +1,513 @@
+CRITICAL - 2022-12-12 06:23:23 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:24:43 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:28:58 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:31:54 --> Class 'App\Filters\Cors' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('/', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:32:17 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:32:21 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:37:58 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:39:23 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:43:16 --> Call to undefined function set_value()
+in APPPATH/Views/login.php on line 150.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:43:55 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:56:59 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(41): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:45:15 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:49:02 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:49:51 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:50:06 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:50:13 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:51:52 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 22:54:58 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 146.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/User.php(90): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->signin()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:00:21 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(106): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:00:21 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 4 APPPATH/Controllers/User.php(106): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:02:21 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:02:21 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:02:22 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:02:22 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:02:34 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:02:34 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:02:41 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:02:41 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:02:51 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:02:51 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:03:18 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:03:18 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 4 APPPATH/Controllers/User.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE (role_id=2 or role_id=3) AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:09:05 --> Call to undefined function form_open()
+in APPPATH/Views/registration.php on line 144.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('registration', [], true)
+ 4 APPPATH/Controllers/register.php(13): view('registration')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\register->link()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:09:49 --> Call to undefined function form_open()
+in APPPATH/Views/registration.php on line 144.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('registration', [], true)
+ 4 APPPATH/Controllers/register.php(13): view('registration')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\register->link()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:10:12 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/User.php(106): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\User->new_index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:10:12 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 4 APPPATH/Controllers/User.php(106): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1  AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\User->new_index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:15:29 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Role.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Role->index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:15:29 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 4 APPPATH/Controllers/Role.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Role->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:18:02 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:18:02 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 4 APPPATH/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:24:59 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:24:59 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 4 APPPATH/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:25:16 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:25:16 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 4 APPPATH/Controllers/Crisis_Sim.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Crisis_Sim->crisis()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crisis_Sim))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:25:26 --> mysqli_sql_exception: SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Role.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Role->index()
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 23:25:26 --> SELECT command denied to user 'yatharth'@'68.178.167.173' for table 'imr_user_role'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 4 APPPATH/Controllers/Role.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM immersive.imr_user_role WHERE role_id=1 AND user_id=1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Role->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Role))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:42:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-12 23:42:10 --> 220 smtp.gmail.com ESMTP a13-20020a170902ee8d00b0017f592a7eccsm7392760pld.298 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [68.178.167.173]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a13-20020a170902ee8d00b0017f592a7eccsm7392760pld.298 - gsmtp
+
+ERROR - 2022-12-12 23:43:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-12 23:43:21 --> 220 smtp.gmail.com ESMTP 63-20020a621442000000b005764c8f8f15sm6757127pfu.73 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [68.178.167.173]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 63-20020a621442000000b005764c8f8f15sm6757127pfu.73 - gsmtp
+
+ERROR - 2022-12-12 23:43:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-12 23:43:31 --> 220 smtp.gmail.com ESMTP pm11-20020a17090b3c4b00b001ef8ab65052sm6364054pjb.11 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [68.178.167.173]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials pm11-20020a17090b3c4b00b001ef8ab65052sm6364054pjb.11 - gsmtp
+

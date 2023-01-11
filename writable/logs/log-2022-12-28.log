@@ -1,0 +1,248 @@
+ERROR - 2022-12-28 00:51:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-28 00:51:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 00:52:15 --> mysqli_sql_exception: Unknown column 'images' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/app/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('images')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'images', 'avatar.jpg')
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+#7 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 00:52:15 --> Unknown column 'images' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM imr_inject_data WHERE inject_id=images', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 4 APPPATH/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 5 APPPATH/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('FCPATH/images')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'FCPATH/images', 'avatar.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 00:53:45 --> mysqli_sql_exception: Unknown column 'images' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/app/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('images')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'images', 'avatar.jpg')
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+#7 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 00:53:45 --> Unknown column 'images' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM imr_inject_data WHERE inject_id=images', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 4 APPPATH/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM imr_inject_data WHERE inject_id=images')
+ 5 APPPATH/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('FCPATH/images')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'FCPATH/images', 'avatar.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:09:29 --> Undefined variable: id
+in APPPATH/Controllers/Player_result.php on line 98.
+ 1 APPPATH/Controllers/Player_result.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH/Controllers/Player_result.php', 98, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:14:51 --> Undefined variable: id
+in APPPATH/Controllers/Player_result.php on line 111.
+ 1 APPPATH/Controllers/Player_result.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH/Controllers/Player_result.php', 111, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:32:50 --> Function name must be a string
+in APPPATH/Controllers/Player_result.php on line 94.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('25')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:37:36 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('25')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:38:18 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:38:29 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:43:22 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:43:50 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:44:20 --> Undefined index: id
+in APPPATH/Controllers/Player_result.php on line 95.
+ 1 APPPATH/Controllers/Player_result.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH/Controllers/Player_result.php', 95, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:44:45 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:45:29 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 95.
+ 1 APPPATH/Controllers/Player_result.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 95, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:45:45 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 95.
+ 1 APPPATH/Controllers/Player_result.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 95, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:46:22 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 03:52:06 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 97.
+ 1 APPPATH/Controllers/Player_result.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 97, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:04:23 --> Trying to get property 'id' of non-object
+in APPPATH/Controllers/Player_result.php on line 77.
+ 1 APPPATH/Controllers/Player_result.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH/Controllers/Player_result.php', 77, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:07:29 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 101.
+ 1 APPPATH/Controllers/Player_result.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:07:50 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 101.
+ 1 APPPATH/Controllers/Player_result.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:08:02 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 101.
+ 1 APPPATH/Controllers/Player_result.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:08:26 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 101.
+ 1 APPPATH/Controllers/Player_result.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:08:39 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 100.
+ 1 APPPATH/Controllers/Player_result.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:08:48 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 100.
+ 1 APPPATH/Controllers/Player_result.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:09:11 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 79.
+ 1 APPPATH/Controllers/Player_result.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:12:46 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 79.
+ 1 APPPATH/Controllers/Player_result.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:17:39 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 79.
+ 1 APPPATH/Controllers/Player_result.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:18:04 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 79.
+ 1 APPPATH/Controllers/Player_result.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 04:19:43 --> Trying to get property 'id' of non-object
+in APPPATH/Controllers/Player_result.php on line 78.
+ 1 APPPATH/Controllers/Player_result.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH/Controllers/Player_result.php', 78, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

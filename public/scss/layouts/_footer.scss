@@ -1,0 +1,41 @@
+#footer {
+	background: #eaeaea;
+	padding: 20px;
+	font-size: 12px;
+	position: relative;
+  flex: 0 0 auto;
+
+	.footer-links {
+		@extend %listreset;
+		display: flex;
+		text-align: center;
+		flex-wrap:wrap;
+		justify-content: center;
+		margin: 0 -8px;
+
+		li {
+			padding: 0 8px;
+			color: #666666;
+			position: relative;
+
+			&:not(:last-child) {	
+				&:after {
+					content: '|';
+					position: absolute;
+					top: -1px;
+					right: -2px;
+				}
+			}
+		}
+
+		a {
+			@include animate(color);
+			text-decoration: none;
+			color: #666666;
+
+			&:hover {
+				color: #000000;
+			}
+		}
+	}
+}

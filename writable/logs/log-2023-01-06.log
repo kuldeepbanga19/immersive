@@ -1,0 +1,1024 @@
+CRITICAL - 2023-01-06 00:07:39 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('47')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:07:54 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('47')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:07:58 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('51')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:08:01 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:09:25 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('52')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:09:36 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('51')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:11:00 --> Trying to get property 'player_setup_id' of non-object
+in APPPATH/Controllers/Player_result.php on line 52.
+ 1 APPPATH/Controllers/Player_result.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'player_setup_id\' of non-object', 'APPPATH/Controllers/Player_result.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('47')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:22:07 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:22:07 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:11 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:11 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:17 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:17 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:23 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:23 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:35 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:35 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:32:16 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(671): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:32:16 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM imr_result WHERE user_id=1 AND player_setup_id=backg.png AND just_status=0', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM imr_result WHERE user_id=1 AND player_setup_id=backg.png AND just_status=0')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM imr_result WHERE user_id=1 AND player_setup_id=backg.png AND just_status=0')
+ 4 APPPATH/Controllers/Play_single_player.php(671): CodeIgniter\Database\BaseConnection->query('SELECT * FROM imr_result WHERE user_id=1 AND player_setup_id=backg.png AND just_status=0')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:32:54 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:32:54 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:34:05 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(460): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:34:05 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Play_single_player.php(460): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 01:00:08 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 01:00:08 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 01:01:45 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 01:01:45 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 01:05:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 01:05:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 01:05:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 01:05:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 02:51:09 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 02:51:09 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 02:51:10 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(460): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 02:51:10 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Play_single_player.php(460): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:18 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:18 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:33 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:33 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:36 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:36 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:39 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:39 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:43 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:43 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:10:46 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:10:46 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:25:46 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:25:46 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 04:26:30 --> Call to a member function get() on null
+in APPPATH/Controllers/Scenario.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario->singleUser('223')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:33:04 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:33:04 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:33:21 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:33:21 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:33:29 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:33:29 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 04:37:20 --> Invalid file: crisis.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crisis.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('crisis', [], true)
+ 3 APPPATH/Controllers/Play_single_player.php(568): view('crisis')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 04:37:21 --> Invalid file: crisis.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crisis.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('crisis', [], true)
+ 3 APPPATH/Controllers/Play_single_player.php(568): view('crisis')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 04:37:28 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 04:37:28 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:07:28 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:07:28 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:18:30 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:18:30 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:23:19 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:23:19 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:24:17 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:24:17 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:24:49 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:24:49 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:27:11 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:27:11 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 05:27:40 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 05:27:40 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:06:06 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:06:06 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:07:36 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:07:36 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:07:40 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:07:40 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:09:48 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:09:48 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:10:42 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:10:42 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 06:24:04 --> Call to a member function get() on null
+in APPPATH/Controllers/Scenario.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario->singleUser('223')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:51:26 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:51:26 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:52:05 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:52:05 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:52:12 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:52:12 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:52:55 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:52:55 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:59:47 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:59:47 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 06:59:55 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 06:59:55 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 07:02:05 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 07:02:05 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 07:05:20 --> mysqli_sql_exception: Unknown column 'dev.jpg' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 07:05:20 --> Unknown column 'dev.jpg' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 4 APPPATH/Controllers/Drill_player_setup.php(431): CodeIgniter\Database\BaseConnection->query('SELECT sp.*,sct.scenrio_title FROM imr_single_player_setup sp LEFT JOIN imr_crisis_scenrio sct ON sp.crisis_scenario_id=sct.id WHERE sp.id=dev.jpg')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->publishdata('dev.jpg')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

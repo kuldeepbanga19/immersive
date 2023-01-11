@@ -1,0 +1,1148 @@
+ERROR - 2022-12-30 00:04:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:04:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:05:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:05:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:05:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:05:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:06:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:06:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:10:31 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:10:31 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:10:33 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:10:33 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:10:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:10:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 00:13:14 --> Undefined property: stdClass::$p
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$p', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('34')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 00:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 00:49:52 --> mysqli_sql_exception: Unknown column 'data.result' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 /home/yatharth/public_html/immersive/app/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 /home/yatharth/public_html/immersive/app/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('data.result')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'data.result')
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+#7 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-30 00:49:52 --> Unknown column 'data.result' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM imr_inject_data WHERE inject_id=data.result', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM imr_inject_data WHERE inject_id=data.result')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM imr_inject_data WHERE inject_id=data.result')
+ 4 APPPATH/Models/injectDataDb.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM imr_inject_data WHERE inject_id=data.result')
+ 5 APPPATH/Controllers/Inject.php(129): App\Models\injectDataDb->getinjectdata('data.result')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Inject->index('212', 'data.result')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inject))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 01:03:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 01:03:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 01:25:38 --> Undefined variable: graph
+in APPPATH/Views/player_result.php on line 613.
+ 1 APPPATH/Views/player_result.php(613): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: graph', 'APPPATH/Views/player_result.php', 613, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(102): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 01:25:59 --> Undefined variable: graph
+in APPPATH/Views/player_result.php on line 613.
+ 1 APPPATH/Views/player_result.php(613): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: graph', 'APPPATH/Views/player_result.php', 613, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(102): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:00:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:00:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:01:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:01:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:03:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:03:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:03:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:03:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 03:04:54 --> syntax error, unexpected '"roleid"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Controllers/Drill_player_setup.php on line 350.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Drill_player_setup/assignment/14/308')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('Drill_player_setup/assignment/14/308')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Drill_player_setup/assignment/14/308')
+ 4 SYSTEMPATH/CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:05:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:05:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:10:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:10:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:16:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:16:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:17:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:17:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:18:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:18:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:21:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:23:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:23:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:24:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:24:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:25:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT us.* FRO...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us.* FRO...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us.* FRO...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Drill_player_setup.php(299): CodeIgniter\Database\BaseConnection->query('SELECT us.* FRO...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Drill_player_setup->assignment('14', '308')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:25:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT us.* FROM imr_user us LEFT JOIN ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us.* FROM imr_user us LEFT JOIN ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us.* FROM imr_user us LEFT JOIN ')
+ 4 APPPATH/Controllers/Drill_player_setup.php(299): CodeIgniter\Database\BaseConnection->query('SELECT us.* FROM imr_user us LEFT JOIN ')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Drill_player_setup->assignment('14', '308')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drill_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:25:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:25:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:26:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:26:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:26:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:26:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:29:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:29:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 03:31:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 03:31:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 03:58:04 --> Undefined index: graph_v
+in APPPATH/Views/player_result.php on line 610.
+ 1 APPPATH/Views/player_result.php(610): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: graph_v', 'APPPATH/Views/player_result.php', 610, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:00:00 --> Undefined variable: request
+in APPPATH/Views/player_result.php on line 610.
+ 1 APPPATH/Views/player_result.php(610): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Views/player_result.php', 610, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:00:01 --> Undefined variable: request
+in APPPATH/Views/player_result.php on line 610.
+ 1 APPPATH/Views/player_result.php(610): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Views/player_result.php', 610, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:23:10 --> Undefined variable: graph_v
+in APPPATH/Views/player_result.php on line 450.
+ 1 APPPATH/Views/player_result.php(450): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: graph_v', 'APPPATH/Views/player_result.php', 450, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:23:30 --> Array to string conversion
+in APPPATH/Views/player_result.php on line 450.
+ 1 APPPATH/Views/player_result.php(450): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/player_result.php', 450, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/player_result.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 5 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:24:13 --> Trying to get property 'pvalue' of non-object
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'pvalue\' of non-object', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:24:21 --> Trying to get property 'pvalue' of non-object
+in APPPATH/Controllers/Player_result.php on line 96.
+ 1 APPPATH/Controllers/Player_result.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'pvalue\' of non-object', 'APPPATH/Controllers/Player_result.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:24:47 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/player_result.php on line 450.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('player_result', [], true)
+ 4 APPPATH/Controllers/Player_result.php(106): view('player_result', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 04:29:28 --> Array to string conversion
+in APPPATH/Controllers/Player_result.php on line 104.
+ 1 APPPATH/Controllers/Player_result.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Player_result.php', 104, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:31:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:31:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:32:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:32:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:34:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:34:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:34:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:35:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:35:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:35:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:35:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:39:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:39:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:39:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:39:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:40:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:40:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:41:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:41:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:42:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1 in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM ...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:42:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6.png order By order_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 4 APPPATH/Controllers/Scenario_preview.php(44): CodeIgniter\Database\BaseConnection->query('SELECT id FROM imr_injects WHERE scenario_id=Avatar 6.png order By order_id')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Scenario_preview->scenario_preview('Avatar 6.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scenario_preview))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:47:00 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:47:00 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 04:47:01 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 04:47:01 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 05:21:02 --> Undefined property: stdClass::$id
+in APPPATH/Controllers/Player_result.php on line 98.
+ 1 APPPATH/Controllers/Player_result.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Controllers/Player_result.php', 98, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 05:21:20 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Player_result.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Controllers/Player_result.php', 98, [...])
+ 2 APPPATH/Controllers/Player_result.php(98): count('314')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Player_result->player_result('27')
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Player_result))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 06:16:24 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 06:16:24 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Single_player_setup.php(303): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Single_player_setup->publishdata('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single_player_setup))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-30 06:16:25 --> mysqli_sql_exception: Unknown column 'backg.png' in 'where clause' in /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/yatharth/public_html/immersive/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb...', 0)
+#1 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb...')
+#2 /home/yatharth/public_html/immersive/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb...')
+#3 /home/yatharth/public_html/immersive/app/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb...')
+#4 /home/yatharth/public_html/immersive/system/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+#5 /home/yatharth/public_html/immersive/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+#6 /home/yatharth/public_html/immersive/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/yatharth/public_html/immersive/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-30 06:16:25 --> Unknown column 'backg.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 4 APPPATH/Controllers/Play_single_player.php(463): CodeIgniter\Database\BaseConnection->query('SELECT tb1.*,tb2.scenrio_title,tb2.briefing FROM imr_single_player_setup tb1 LEFT JOIN imr_crisis_scenrio tb2 ON tb1.crisis_scenario_id=tb2.id WHERE tb1.id=backg.png')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Play_single_player->result('backg.png')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Play_single_player))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

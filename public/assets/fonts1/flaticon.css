@@ -1,0 +1,41 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/11/2020 06:24
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 20px;
+  margin-right: 5px;
+  font-style: normal;
+}
+
+.flaticon-task:before { content: "\f100"; }
+.flaticon-permission:before { content: "\f101"; }
+.flaticon-scrum:before { content: "\f102"; }
+.flaticon-to-do-list:before { content: "\f103"; }
+.flaticon-shop:before { content: "\f104"; }
+.flaticon-island:before { content: "\f105"; }
+.flaticon-hotel-supplier:before { content: "\f106"; }
+.flaticon-price-tag:before { content: "\f107"; }
+.flaticon-planning:before { content: "\f108"; }

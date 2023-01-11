@@ -1,0 +1,4 @@
+[04-Jan-2023 11:30:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Controllers\BaseController' not found in /home/yatharth/public_html/immersive/app/Controllers/Server.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/yatharth/public_html/immersive/app/Controllers/Server.php on line 8

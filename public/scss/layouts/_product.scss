@@ -1,0 +1,125 @@
+.product-block {
+	padding: 30px 0 0;
+	background: $white;
+
+	.tab-content {
+		padding:20px 19px 136px;
+
+		@include media('>=desktop') {
+			padding:0  19px 136px;
+		}
+	}
+
+	.tabset {
+		margin-left: 25px;
+	}
+
+	.header-content {
+		padding: 17px 0 28px;
+
+		@include media('>=widescreen') {
+			padding: 14px 27px 28px;
+		}
+
+		.btn-outline {
+			color:#6bcac7;
+			border-color: #6bcac7;
+
+			&:hover {
+				background: #6bcac7;
+				color: $white;
+			}
+		}
+	}
+
+	.jcf-list-box {
+		width: 100% !important; 
+
+		.jcf-scrollbar-horizontal {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.jcf-scrollbar-vertical {
+			height: 100% !important;
+		}
+	}
+
+	.col-wrap {
+		.col {
+			margin: 0 0 11px;
+			width: 100%;
+
+			@include media('>=phone') {
+				width: 50%;
+			}
+
+			@include media('>=tablet') {
+				width: 33.33%;
+			}
+
+			@include media('>=desktop') {
+				width: auto;
+			}
+		}
+	}
+
+	
+	.jcf-list-content {
+		height: 105px !important;
+	}
+}
+
+.allowance-block {
+	padding: 30px 0 0;
+	background: $white;
+
+	.tab-content {
+		padding:20px 19px 136px;
+
+		@include media('>=desktop') {
+			padding:0  19px 136px;
+		}
+	}
+
+	.btn-list {
+		margin: 0 auto 12px;
+	}
+
+	.tabset {
+		margin-left: 20px;
+	}
+
+	.header-content {
+		padding: 15px 0 70px;
+		.btn-outline {
+			color:#6bcac7;
+			border-color: #6bcac7;
+
+			&:hover {
+				background: #6bcac7;
+				color: $white;
+			}
+		}
+	}
+}
+
+.allowance-table {
+
+	.jcf-scrollable-wrapper,
+	.jcf-scrollable {
+		width: 100% !important;
+
+		.jcf-scrollbar-vertical {
+			display: none !important;
+		}
+	}
+
+	.table-secondary {
+		width: 1452px;
+
+		@include media('>=1500px') {
+			width: 100%;
+		}
+	}
+}
